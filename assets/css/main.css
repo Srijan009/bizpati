@@ -1,0 +1,237 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+section#hero{
+    position: relative;
+    margin-bottom: 20px;
+    /* padding-bottom: 10px; */
+}
+.overlay{
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    opacity: 0.6;
+}
+.hero-heading a ,.hero-cat a{
+   color: #000;
+}
+.hero-heading a:hover ,.hero-cat a:hover{
+   color: #000;
+}
+#hero-image{
+    background-image: url('../img/hero-2.jpg');
+    background-attachment: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    /* padding-bottom: 10px; */
+}
+.padding-145{
+    padding-top: 45px;
+}
+.hr-left{
+    /* border-right:   3px solid grey; */
+    border-left:   3px solid #E71D2B;
+    padding-left: 30px !important;
+}
+/* hero btn */
+#hero-btn{
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 15px;
+    line-height: 1.5;
+    border: 1px solid #fff;
+    border-radius:5px;
+    background: #192a56;
+    margin-bottom: 10px;
+
+}
+.hero-desc{
+    font-size: 20px;
+}
+.hero-cat{
+    font-size: 25px;
+
+}
+.cat-news{
+    padding-right: 30px !important;
+}
+
+
+a{
+    outline: none !important;
+}
+footer ul{
+       padding: 0;
+       margin: 0; 
+}
+footer ul li{
+    list-style: none;
+}
+h3{
+    margin: 0 !important;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+.navbar-default{
+    background-color: #192a56 !important;
+}
+.navbar{
+    border-radius: 0px;
+    background-color: #192a56;
+    margin-bottom: 0px;
+}
+.nav li{
+    font-weight: bold;
+    
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 18px;
+    color: #fff !important;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: #E71D2B !important;
+}
+.heading{
+        color: #192a56; 
+}
+.p-heading{
+        color: #192a56;
+        font-size: 12px; 
+        font-weight:690;
+        padding: 0 15px;
+        margin: 5px 0 !important;
+        text-transform: uppercase;
+}
+.accordion {
+    background-color: #192a56;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #E71D2B; 
+  }
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color:white;
+    overflow: hidden;
+  }
+  .panel ul {
+      padding: 0;
+      margin: 0;    
+  }
+  
+  .panel ul li {
+      list-style: none;
+      line-height: 32px;
+      padding:0 5px;
+  }
+  .divLeft,.divRight{
+      float: left;
+      width: 50%;
+      /* margin: 1px; */
+  }
+  .list-group li{
+      margin: 3px;
+      text-align: center;
+  }
+  .text-left{
+      text-align: left !important;
+  }
+.leftDiv{
+    float: left;
+    margin-right: 20px;
+}
+.rightDiv{
+    float: left;
+    width: 80%;
+}
+footer{
+    background: #212121;
+    color: #fff;
+    padding: 25px;
+    border-bottom: none;
+}
+.footer-group h4{
+    font-weight: bold !important;
+    color: #fff !important;
+    font-size: 22px !important;
+}
+.footer-group a{
+    color: #fff;    
+}
+#trainer{
+    padding:20px;
+}
+.content{
+    background: #dff0d8;
+    color: #3c763d;
+    padding: 10px;
+}
+.sub-heading{
+    color: #E71D2B;
+}
+.pd-15{
+    padding-left:15px; 
+}
+/* .btn-primary{
+    background: #E71D2B !important  ;
+}
+.btn{
+    font-size: 22px !important;
+    height: 50px !important;
+} */
+.accordion span{
+    display: block;
+    float: right;
+}
+/* media query */
+@media only screen and (max-width:600px){
+    .content{
+        padding-left: 15%;
+    }
+    .heading , .rightDiv{
+        text-align: center;
+    }
+    
+    .leftDiv,.rightDiv{
+        float: clear;
+    }
+    .leftDiv img{
+        display: block;
+        margin:0 auto;
+        width: 50%;
+    }
+}
+.post-content{
+    padding: 10px 15px;
+    margin:10px 15px;
+}
+.pd-20{
+    padding-top: 5px;
+}
+.bt-mar{
+    margin: 10px 10px 10px 10px;
+}
