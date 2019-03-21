@@ -20,16 +20,10 @@
         <input type="text" name="facebook_title" value="" placeholder = "Enter The Facebook Title" class = "form-control" id="">
     </div>
     <div class="form-group">
-    <label for="">Specail News Category</label>
-        <select name="parent_id" class = "form-control" id="">
-            <option value="0">Business</option>
-            <option value="1">Technology</option>
-            <option value="2">Politics</option>
-            <option value="3">Economics</option>
-            <option value="4">International</option>
-            <option value="5">Entertainment</option>
-            <option value="6">Education</option>
-        </select>
+    <label for="">Special News Category
+    <select style = "width:150px" class="js-data-example-ajax"></select>
+    </label>
+   
     </div>
     <div class="form-group">
         <input type="file" name = "userfile">

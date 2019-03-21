@@ -55,9 +55,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   // biz pati special route
   $route['bizpatispecial'] = 'pagescontroller/view/bizpatispecial';
   $route['(:num)'] = 'specialpostscontroller/viewall/$i';
+  $route[] = 'specialpostscontroller/viewall/$i';
   // $route['bizpatispecial/(:num)'] = 'pagescontroller/viewall/$i';
 $route['admin'] = 'adminpages/pages';
 //Post Routes
+$route['admin/specialposts/search'] = 'specialpostscontroller/ajax_search';
 $route['admin/specialposts/create'] = 'specialpostscontroller/create';
 $route['admin/specialposts/view'] = 'specialpostscontroller/view';
 $route['admin/specialposts/delete/(:num)'] = 'specialpostscontroller/delete/$i';

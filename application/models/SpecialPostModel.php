@@ -123,6 +123,27 @@ class SpecialPostModel extends CI_Model {
             return false;
         }
     }
+    public function get_json($key){
+        $query = $this->db->query("select * from articles where article_post_title like '%".$key."%'");
+        //die();
+        $results = $query->result();
+        $data = [];
+        foreach($results as $row){
+            $data[] = [
+                'id' => $row->id,
+                'text' =>$row->article_post_title
+            ]; 
+        }
+        // $data = [];
+        // foreach($results as $result){
+        //     $data['results'] => 
+        // }
+        //echo "<pre>";
+        //print_r($result);
+        $json =  json_encode($data,JSON_UNESCAPED_UNICODE);
+        echo $json;
+        exit;
+    }
 
 
 

@@ -18,7 +18,7 @@
         <div class="col-md-4">
             <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/bizpati-logo.png" alt=""></a>
         </div>
-        <div class="col-md-8">
+    <div class="col-md-8">
 
         </div>
     </div>

@@ -146,5 +146,11 @@
                 redirect('admin/specialposts/view');
             }
         }
+        // ajax search
+        public function ajax_search(){
+            $key =  $this->input->get('search');
+            $this->load->model('SpecialPostModel');
+            $data['json'] = $this->SpecialPostModel->get_json($key);       
+        }
 
     }
